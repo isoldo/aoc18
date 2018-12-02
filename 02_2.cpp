@@ -2,15 +2,6 @@
 #include <vector>
 #include <set>
 
-bool sortby2(const std::string &a, const std::string &b)
-{
-	if (a.length() < 2)
-		return true;
-	if (b.length() < 2)
-		return true;
-	return a[1] < b[1]; 
-}
-
 int main()
 {
 	std::vector<std::string> input;
